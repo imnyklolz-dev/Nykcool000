@@ -1,0 +1,7 @@
+body
+{
+    background-color: "lime";
+    background-image: url("image.png");
+    background-position: center;
+    background: fixed;
+}
