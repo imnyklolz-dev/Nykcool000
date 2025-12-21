@@ -1,9 +1,15 @@
-Hi!
-This is just a test lol-
-dont expect it to work.
+Hello.
 
+This is all in the testing phase, please take all applications with a grain of salt.
 
 HOW TO RUN:
 1. Download all images
-2. Run an application
-3. Once you're dont DONT CLOSE THE TAB!!! use the exit button to safely exit.
+2. put them into a folder
+3. Run an application
+4. if images dont work, try checking if they are in the folder.
+
+   CHANGELOG:
+   1.1
+   Added some more images!
+   1.0 (release)
+   made it i guess.
