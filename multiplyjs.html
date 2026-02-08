@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head><title>JS Function Declaration</title></head>
+    <body>
+        <center>
+            <h1>multiplication</h1>
+            <input type="number" id="a" placeholder="Enter first number">
+            <input type="number" id="b" placeholder="Enter second number">
+            <p id="product"></p>
+            <button onclick="multiply()">Multiply</button>
+            <script>
+                function multiply() {
+                    const a = parseFloat(document.getElementById("a").value);
+                    const b = parseFloat(document.getElementById("b").value);
+                    document.getElementById("product").innerHTML = a * b;
+                }
+            </script>
+        </center>
+    </body>
+</html>
