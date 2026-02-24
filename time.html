@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head><title>Time in JS</title></head>
+    <p id="hour"></p>
+    <p id="greet"></p>
+    <script>
+        var greeting;
+        var time = new Date().getHours();
+        if (time < 12) {
+            greeting = "Good morning!";
+        } else if (time < 18) {
+            greeting = "Good afternoon!";
+        } else {
+            greeting = "Good evening!";
+        }
+        document.getElementById("hour").innerHTML = "Current hour: " + time;
+        document.getElementById("greet").innerHTML = greeting;
+    </script>
+</html>
