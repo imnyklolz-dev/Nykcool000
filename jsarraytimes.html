@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head><title>JS Array Multiplication</title></head>
+    <body>
+        <h1>JS Array Multiplication</h1>
+        <p id="product"></p>
+        <script>
+            var numbers = [2, 4, 6, 8];
+            function myFunction(num) {
+                return num * 10;
+            }
+            var newarray = numbers.map(myFunction);
+            document.getElementById("product").innerHTML = newarray;
+            </script>
+    </body>
+</html>
