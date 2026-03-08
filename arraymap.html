@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head><title>Array Map Example</title></head>
+    <body>
+        <h1>Array Map Example</h1>
+        <p>This is a simple example of the array map in JavaScript.</p>
+        <p>Ascending and Decending for mapped numbers</p>
+        <p id="product_value"></p>
+        <button onclick="ascending()">Ascending order</button>
+        <button onclick="descending()">Descending order</button>
+        <script>
+            const numbers = [1, 2, 3, 4, 5];
+            const mappedNumbers = numbers.map(num => num * 2);
+            document.getElementById("product_value").innerText = "Mapped Numbers: " + mappedNumbers.join(", ");
+
+            function ascending() {
+                const sortedNumbers = mappedNumbers.slice().sort((a, b) => a - b);
+                document.getElementById("product_value").innerText = "Ascending: " + sortedNumbers.join(", ");
+            }
+
+            function descending() {
+                const sortedNumbers = mappedNumbers.slice().sort((a, b) => b - a);
+                document.getElementById("product_value").innerText = "Descending: " + sortedNumbers.join(", ");
+            }
+        </script>
+    </body>
+</html>
