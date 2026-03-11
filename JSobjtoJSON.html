@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head><title>JS Object to JSON</title></head>
+    <body>
+        <h1>JavaScript Object to JSON</h1>
+        <p>This is an example that shows how to convert a JavaScript object to JSON</p>
+        <p id="result"></p>
+        <script>
+            var myObj = {name: "John", age: 30, grade: 7};
+            var myJSON = JSON.stringify(myObj);
+            var newobj = JSON.parse(myJSON);
+            document.getElementById("result").innerHTML = newobj.name;
+        </script>
+    </body>
+</html>
