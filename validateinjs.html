@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head><title>Validate in js</title> <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"></head>
+    <body>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <h1>Calculator</h1>
+        <link rel="stylesheet" href="style1.css">
+        <p id="result"></p>
+        <div class="calc">
+            <div class="title">Calculator</div>
+            <div class="grid">
+                <input id="result" type="text" placeholder="result" readonly>
+                <button class="btnop" onclick="SetScreenValue('+')">C</button>
+
+                <button class="btn" onclick="SetScreenValue('1')">1</button> <br>
+                <button class="btn" onclick="SetScreenValue('2')">2</button>
+                <button class="btn" onclick="SetScreenValue('3')">3</button>
+                <btn class="btn op" onclick="SetScreenValue('+')">+</btn> <br>
+                <button class="btn" onclick="SetScreenValue('4')">4</button>
+                <button class="btn" onclick="SetScreenValue('5')">5</button>
+                <button class="btn" onclick="SetScreenValue('6')">6</button>
+                <btn class="btn op" onclick="SetScreenValue('-')">-</btn>
+                <button class="btn" onclick="SetScreenValue('7')">7</button>
+                <button class="btn" onclick="SetScreenValue('8')">8</button>
+                <button class="btn" onclick="SetScreenValue('9')">9</button>
+                <btn class="btn op" onclick="SetScreenValue('*')">*</btn>
+                 <button class="btn" onclick="Calculate()">=</button>
+                 <button class="btn op" onclick="SetScreenValue('/')">/</button>
+                <button class="btn" onclick="SetScreenValue('0')">0</button>
+                <button class="btn" onclick="SetScreenValue9('.')">.</button>
+            </div>
+        </div>
+
+        <script src="script1.js"></script>
+    </body>
+</html>
